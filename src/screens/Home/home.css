@@ -1,0 +1,67 @@
+.home {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #FFBE68;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    cursor: pointer;
+}
+
+.content-box {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+}
+
+.img-box {
+    /* background: #f9fafb; */
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 10px 10px #d1d5db;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+.home-img {
+    max-width: 100%;
+    pointer-events: none;
+    /* z-index: 100; */
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.playlist-name {
+    color: #FFBE68;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 1em 0em;
+}
+
+.playlist-curator {
+    color: #FFBE68;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
